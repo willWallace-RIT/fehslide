@@ -24,3 +24,4 @@ exec "sh ~/fehTranslideshowKill.sh && sh ~/slideshowKill.sh && feh --bg-fill ~/D
 exec feh --bg-fill --randomize ~/Docs/Pics/*  
 exec "sh ~/fehTranslideshowKill.sh && sh ~/slideshowKill.sh && sh ~/fehtransitionslideshow.sh ~/Docs/Pics 100" 
 
+NOTE: as it currently churns a lot of cpu i'd suggest using slideshowkill.sh and a set bg to disable in a pinch
