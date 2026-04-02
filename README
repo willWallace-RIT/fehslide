@@ -1,0 +1,26 @@
+TODO
+recoding lowbore VULKAN engine for tex production on GPU with toggleable setting and not just churning CPU if no likey
+
+
+REQS
+python3
+imagemagick
+feh
+
+
+TO START:
+
+CHANGE EXPATH && DIRPATH in slideshowKill.sh
+
+#for i3 binds
+
+bindsym $mod+Shift+n exec "sh ~/next.sh ~/Docs/Pics" 
+
+
+bindsym $mod+Shift+ctrl+b exec "sh ~/fehTranslideshowKill.sh && sh ~/slideshow.sh ~Docs/Pics 100" bindsym $mod+Shift+b 
+exec "sh ~/fehTranslideshowKill.sh && sh ~/slideshowKill.sh && feh --bg-fill ~/Docs/Pics/305\ -\ 31200307jpg.jpg" 
+
+#feh background 
+exec feh --bg-fill --randomize ~/Docs/Pics/*  
+exec "sh ~/fehTranslideshowKill.sh && sh ~/slideshowKill.sh && sh ~/fehtransitionslideshow.sh ~/Docs/Pics 100" 
+
